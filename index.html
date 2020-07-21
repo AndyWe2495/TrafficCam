@@ -1,14 +1,55 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<body>
+<head>
+    <style>
+		#gallery figure {
+		  position: relative;
+		}
 
-<div style="display: table; width: 100%;">
-<figure padding: 0 4px; text-align: center;"><img src="https://wcp.bayerninfo.de/bi/jpg/bi_--a0003_-440_-6372_diwue_viwue_-192-168-129-12_0.jpg" /><figcaption>Fahrtrichtung Frankfurt</figcaption></figure>
-<figure style="display: table-cell; padding: 0 4px; text-align: center;"><img src="https://wcp.bayerninfo.de/bi/jpg/bi_--a0003_-440_-6372_dinbg_vinbg_-192-168-129-11_0.jpg" /><figcaption>Fahrtrichtung Nürnberg / Kreuz A7</figcaption></figure>
-<figure padding: 0 4px; text-align: center;"><img src="https://wcp.bayerninfo.de/bi/jpg/bi_--a0003_-440_--672_diwue_viwue_hm-randersacker_0.jpg" /><figcaption>Fahrtrichtung Frankfurt</figcaption></figure>
-<figure style="display: table-cell; padding: 0 4px; text-align: center;"><img src="https://wcp.bayerninfo.de/bi/jpg/bi_--a0003_-440_--672_dinbg_vinbg_hm-randersacker_0.jpg" /><figcaption>Fahrtrichtung Nürnberg / Kreuz A7</figcaption></figure>
-</div>
+		figure img {
+		  width: 100%;
+		  display: block;
+		} 
 
+		#gallery > figure > figcaption {
+		  position: absolute;
+		  bottom: 0;
+		  width: 100%;
+		  line-height: 3em;
+		  color: white;
+		  background: rgba(0,0,0,.3);
+		}
+    </style>
+  </head>
+<body
 
-</body>
+<figure id="gallery">
+  <figcaption>Fahrtrichtung Frankfurt</figcaption>
+
+  <figure>
+    <img src="https://wcp.bayerninfo.de/bi/jpg/bi_--a0003_-440_-6372_diwue_viwue_-192-168-129-12_0.jpg" alt="Lauf an der Pegnitz - Nürnberger Tor">
+    <figcaption>KM 2xx</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://wcp.bayerninfo.de/bi/jpg/bi_--a0003_-440_--672_diwue_viwue_hm-randersacker_0.jpg">
+    <figcaption>KM 293</figcaption>
+  </figure>
+</figure>
+
+<figure id="gallery">
+  <figcaption>Fahrtrichtung Nürnberg</figcaption>
+
+  <figure>
+    <img src="https://wcp.bayerninfo.de/bi/jpg/bi_--a0003_-440_-6372_dinbg_vinbg_-192-168-129-11_0.jpg" alt="Lauf an der Pegnitz - Nürnberger Tor">
+    <figcaption>KM 2xx</figcaption>
+  </figure>
+
+  <figure>
+    <img src="https://wcp.bayerninfo.de/bi/jpg/bi_--a0003_-440_--672_dinbg_vinbg_hm-randersacker_0.jpg">
+    <figcaption>KM 293</figcaption>
+  </figure>
+</figure>
+  
+  </body>
 </html>
