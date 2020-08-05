@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Verkehrskameras A7</title>
+    <style> 
+		#gallery figure {
+		  position: relative;
+		}
+
+		figure img {
+		  width: 100%;
+		  display: block;
+		} 
+
+		#gallery > figure > figcaption {
+		  position: absolute;
+		  bottom: 0;
+		  width: 100%;
+		  text-align: center;
+		  font-family:Verdana;
+		  font-weight: bold;
+		  font-size: 2em;
+		  line-height: 2em;
+		  color: white;
+		  background: rgba(0,0,0,.3);
+		}
+    .button {
+      background-color: #FF4500;
+      border: none;
+      color: white;
+      padding: 20px 34px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      }
+    </style>
+  </head>
+<body style="background-color:#51565c;">
+<a href="https://de.w3docs.com/" class="button">Hier klicken</a>
+<figure id="gallery">	
+ <figure>
+    <img src="https://wcp.bayerninfo.de/bi/jpg/bi_--a0007_-260_-8115_diwue_viwue_-hm-ak-biebelrd_0.jpg">
+    <figcaption>Standort: BU Effeldorf (KM 668)<br />Blickrichtung: Kreuz Biebelried</figcaption>
+  </figure>  
+
+  <figure>
+    <img src="https://wcp.bayerninfo.de/bi/jpg/bi_--a0007_-260_-8115_diful_viful_-hm-ak-biebelrd_0.jpg">
+    <figcaption>Standort: BU Effeldorf (KM 668)<br />Blickrichtung: Estenfeld / Talbrücke Rothof</figcaption>
+  </figure>  
+	
+</figure>
+  
+ </body>
+</html>
